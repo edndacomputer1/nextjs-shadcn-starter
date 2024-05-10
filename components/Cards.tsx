@@ -3,7 +3,7 @@ import React from 'react'
 import { PiArrowSquareOut } from 'react-icons/pi'
 const Cards = () => {
   return (
-    <div className='mt-8 flex justify-between gap-x-6 rounded-xl bg-[#161616] p-3'>
+    <div className='mx-auto mt-8 flex max-w-lg justify-between gap-x-6 rounded-xl bg-[#161616] p-3'>
       <img
         className='h-9 w-10 rounded-lg object-cover'
         src='/images/placeholder-image.webp'
