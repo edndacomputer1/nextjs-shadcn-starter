@@ -14,15 +14,15 @@ const Cards = () => {
         <p className='hidden text-sm text-neutral-500 md:block'>
           A high quality framer portfolio <br /> designed for creatives.
         </p>
-        <div className='boarder mt-3 hidden h-7 w-fit items-center justify-center rounded-md border-neutral-800 px-2 uppercase text-white md:flex'>
+        <div className='first-letter:hidden text-xs boarder mt-3 hidden h-7 w-fit items-center justify-center rounded-md border-neutral-800 px-2 uppercase text-white md:flex'>
           Store
         </div>
       </div>
-      <button className='flex h-fit items-center gap-x-2  rounded-xl bg-neutral-800 p-2 text-white'>
+      <button className='flex h-fit items-center gap-x-2 rounded-lg bg-neutral-800 p-2 text-white'>
         <span className='hidden items-center gap-x-1 space-x-2 text-xs md:flex'>
           View
-          <PiArrowSquareOut className='text-md' />
         </span>
+          <PiArrowSquareOut className='text-md' />
       </button>
     </div>
   )
